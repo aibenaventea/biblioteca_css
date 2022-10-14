@@ -1,0 +1,70 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Fin CSS reset */
+
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Fin container */
+
+/*Clase crea un button redondo  */
+.btn{
+    background-color:lightseagreen;
+    border-color: lightseagreen;
+    border-radius: 50%;
+    text-align:center;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: lighter;
+}
+/* Fin boton */
+
+/*Clase crea row flex  */
+.row{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+.col {
+    background-color: darkcyan;
+    margin: 5px;
+    padding: 25px;
+    color: whitesmoke;
+    font-size: larger;
+    flex: 1;
+}
+/* Fin row y col */
+
+/*Clase crea navbar flex  */
+.navbar {
+    width: 700px;
+    height: 50px;
+    margin: 20px;
+    background-color: rgb(68, 67, 67);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav-title {
+    margin: 20px;
+}
+.nav-links {
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.btn {
+    margin: 20px;
+    background-color:rgb(0, 183, 186);
+    color:whitesmoke;
+    box-shadow:black 2px 2px;
+    border-width: medium;
+}
+/* Fin navbar */
